@@ -464,21 +464,21 @@ footer {
 
 @media (max-width: 768px) {
     .sobre {
-        padding: 60px 30px;
+        padding: 40px 20px;
     }
 
     .sobre-conteudo {
         flex-direction: column;   
-        gap: 30px;
-        padding: 40px 20px;
+        margin-left: 0;
+        padding: 40px 0px;
     }
 
     .sobre-imagem {
+        flex: none;
         max-width: 100%;
     }
 
     .sobre-imagem img {
-        width: 100%;
         max-height: 350px;
         object-fit: cover;
         display: block;
